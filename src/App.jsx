@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Example from './Example';
+import PostList from './app/1-props-example/PostList';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Example />
+      <PostList />
     </div>
   );
 }
